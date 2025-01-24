@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Sans-Serif;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .5s ease;
+}
+
+ul {
+	margin: auto;
+	background-color: #ccc;
+	width: 80%;
+	max-width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	gap: 10px;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+ul li {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	transition: .3s;
+	transform: scale(0.9);
+}
+
+ul li.ativo {
+	transform: scale(1.15);
+}
